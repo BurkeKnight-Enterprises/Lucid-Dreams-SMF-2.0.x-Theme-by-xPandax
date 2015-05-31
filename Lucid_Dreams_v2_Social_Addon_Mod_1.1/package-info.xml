@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Package manifest file for Lucid Dreams v2 Social Addon Mod
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>BurkeKnight:LDMod</id>
+
+	<name>Lucid Dreams v2 Social Addon Mod</name>
+
+	<version>1.1</version>
+
+	<type>modification</type>
+
+	<install for="2.0 - 2.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<modification>modification.xml</modification>
+		<require-file name="github_s.png" destination="$themes_dir/Lucid_Dreams_v2/images/social" />
+		<require-file name="steam_s.png" destination="$themes_dir/Lucid_Dreams_v2/images/social" />
+		<require-file name="linkedin_s.png" destination="$themes_dir/Lucid_Dreams_v2/images/social" />
+	</install>
+
+	<uninstall for="2.0 - 2.0.99">
+		<modification reverse="true">modification.xml</modification>
+		<remove-file name="$themes_dir/Lucid_Dreams_v2/images/social/github_s.png" />
+		<remove-file name="$themes_dir/Lucid_Dreams_v2/images/social/steam_s.png" />
+		<remove-file name="$themes_dir/Lucid_Dreams_v2/images/social/linkedin_s.png" />
+	</uninstall>
+
+</package-info>

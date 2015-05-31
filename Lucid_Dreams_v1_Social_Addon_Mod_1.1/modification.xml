@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	
+	<id>BurkeKnight:LDMod</id>
+	<version>1.1</version>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/index.template.php">
+		<operation>
+			<search position="before"><![CDATA[if(!empty($settings['googleplus_id']))
+					echo '
+						<li class="googleplus"><a href="', $settings['googleplus_id'] , '" target="_blank">', $txt['googleplus'], '+</a></li>';
+				]]></search>
+			<add><![CDATA[if(!empty($settings['github_id']))
+					echo '
+						<li class="github"><a href="', $settings['github_id'] , '" target="_blank">', $txt['github'], '+</a></li>';
+				if(!empty($settings['steam_id']))
+					echo '
+						<li class="steam"><a href="', $settings['steam_id'] , '" target="_blank">', $txt['steam'], '+</a></li>';
+				if(!empty($settings['linkedin_id']))
+					echo '
+						<li class="linkedin"><a href="', $settings['linkedin_id'] , '" target="_blank">', $txt['linkedin'], '+</a></li>';
+				]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/Settings.template.php">
+		<operation>
+			<search position="before"><![CDATA[array(
+			'id' => 'googleplus_id',
+			'label' => $txt['googleplus_id'],
+			'description' => $txt['url_desc'],
+			'type' => 'text',
+		),
+		]]></search>
+			<add><![CDATA[array(
+			'id' => 'github_id',
+			'label' => $txt['github_id'],
+			'description' => $txt['url_desc'],
+			'type' => 'text',
+		),
+		array(
+			'id' => 'steam_id',
+			'label' => $txt['steam_id'],
+			'description' => $txt['url_desc'],
+			'type' => 'text',
+		),
+		array(
+			'id' => 'linkedin_id',
+			'label' => $txt['linkedin_id'],
+			'description' => $txt['url_desc'],
+			'type' => 'text',
+		),
+		]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/css/index.css">
+		<operation>
+			<search position="before"><![CDATA[.social-icons li.googleplus a {
+	background: url(../images/social/google_plus.png) no-repeat 0 -20px;
+	background-color: #d94a39;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+]]></search>
+			<add><![CDATA[.social-icons li.github a {
+	background: url(../images/social/github_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.github a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.steam a {
+	background: url(../images/social/steam_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.steam a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a {
+	background: url(../images/social/linkedin_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #ffffff;
+}
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/css/index_blue.css" error="skip">
+		<operation>
+			<search position="before"><![CDATA[.social-icons li.googleplus a {
+	background: url(../images/social/google_plus.png) no-repeat 0 -20px;
+	background-color: #d94a39;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+]]></search>
+			<add><![CDATA[.social-icons li.github a {
+	background: url(../images/social/github_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.github a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.steam a {
+	background: url(../images/social/steam_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.steam a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a {
+	background: url(../images/social/linkedin_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #ffffff;
+}
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/css/index_dark_orange.css" error="skip">
+		<operation>
+			<search position="before"><![CDATA[.social-icons li.googleplus a {
+	background: url(../images/social/google_plus.png) no-repeat 0 -20px;
+	background-color: #d94a39;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+]]></search>
+			<add><![CDATA[.social-icons li.github a {
+	background: url(../images/social/github_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.github a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.steam a {
+	background: url(../images/social/steam_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.steam a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a {
+	background: url(../images/social/linkedin_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #ffffff;
+}
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/css/index_green_lavender.css" error="skip">
+		<operation>
+			<search position="before"><![CDATA[.social-icons li.googleplus a {
+	background: url(../images/social/google_plus.png) no-repeat 0 -20px;
+	background-color: #d94a39;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+]]></search>
+			<add><![CDATA[.social-icons li.github a {
+	background: url(../images/social/github_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.github a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.steam a {
+	background: url(../images/social/steam_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.steam a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a {
+	background: url(../images/social/linkedin_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #ffffff;
+}
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/css/index_light_blue.css" error="skip">
+		<operation>
+			<search position="before"><![CDATA[.social-icons li.googleplus a {
+	background: url(../images/social/google_plus.png) no-repeat 0 -20px;
+	background-color: #d94a39;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+]]></search>
+			<add><![CDATA[.social-icons li.github a {
+	background: url(../images/social/github_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.github a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.steam a {
+	background: url(../images/social/steam_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.steam a:hover {
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a {
+	background: url(../images/social/linkedin_s.png) no-repeat 0 -20px;
+	background-color: #ffffff;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #ffffff;
+}
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themes_dir/Lucid_Dreams_v1/languages/ThemeStrings.english.php">
+		<operation>
+			<search position="before"><![CDATA[$txt['googleplus'] = 'Google+';
+]]></search>
+			<add><![CDATA[$txt['github'] = 'Github';
+$txt['steam'] = 'Steam';
+$txt['linkedin'] = 'Linkedin';
+]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[$txt['googleplus_id'] = 'Google+';
+]]></search>
+			<add><![CDATA[$txt['github_id'] = 'Github';
+$txt['steam_id'] = 'Steam';
+$txt['linkedin_id'] = 'Linkedin';
+]]></add>
+		</operation>
+	</file>
+
+</modification>
