@@ -1,4 +1,4 @@
-<p><hr /><br />
+<p>
 <center><span style="color: teal;"><span style="font-size: 16pt;"><strong>Lucid Dreams</strong></span></span><br />
 <span style="text-decoration: underline;">(For SMF 2.0.x)</span><br />
 Theme by <a href="https://github.com/LinuxPanda/SMF2.0Theme--LucidDreams">xPandax</a> | Taken over by: BurkeKnight</p>
