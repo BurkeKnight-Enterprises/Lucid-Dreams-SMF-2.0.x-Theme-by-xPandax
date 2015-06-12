@@ -3,6 +3,12 @@
 <span style="text-decoration: underline;">(For SMF 2.0.x)</span><br />
 Theme by <a href="https://github.com/LinuxPanda/SMF2.0Theme--LucidDreams">xPandax</a> | Taken over by: BurkeKnight</p>
 
+[![Forks](https://img.shields.io/github/forks/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax.svg)](https://github.com/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax/network)
+[![Stars](https://img.shields.io/github/stars/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax.svg)](hhttps://github.com/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax.svg)](https://github.com/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax/issues)
+[![Current Release](https://img.shields.io/github/release/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax/Lucid_Dreams_v2.0.1.svg)](https://github.com/BurkeKnight-Enterprises/Lucid-Dreams-SMF-2.0.x-Theme-by-xPandax/releases)
+[![License](https://img.shields.io/badge/License-UNLICENSE-red.svg)](http://unlicense.org/)
+
 <p><span style="color: red;"><span style="font-size: 18pt;">This theme will no longer be updated, due to SMF 2.1.</span></span><br />
 </center><br />
 <hr /></p>
